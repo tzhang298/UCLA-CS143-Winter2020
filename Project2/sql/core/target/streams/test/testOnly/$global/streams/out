@@ -1,0 +1,44 @@
+[0m[[0mdebug[0m] [0mForking tests - parallelism = false[0m
+[0m[[0mdebug[0m] [0mCreate a single-thread test executor[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mRunner for org.scalatest.tools.Framework produced 5 initial tasks for 5 tests.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.apache.spark.sql.execution.DiskPartitionSuite, sbt.ForkMain$SubclassFingerscan@1cd55854, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mDiskPartitionSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- disk partition (738 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- close input (15 milliseconds)[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.apache.spark.sql.execution.DiskHashedRelationSuite, sbt.ForkMain$SubclassFingerscan@5f31b4fa, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mDiskHashedRelationSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- values are in correct partition (84 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- empty input (123 milliseconds)[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.apache.spark.sql.execution.CS143UtilsSuite, sbt.ForkMain$SubclassFingerscan@5dcd90c1, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mCS143UtilsSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- caching iterator (212 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- sequence with 1 UDF (4 milliseconds)[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.apache.spark.sql.execution.ProjectSuite, sbt.ForkMain$SubclassFingerscan@a8d438, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mProjectSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- PartitionProject (6 seconds, 341 milliseconds)[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0mdebug[0m] [0m  Running TaskDef(org.apache.spark.sql.execution.InMemoryAggregateSuite, sbt.ForkMain$SubclassFingerscan@6b489282, false, [SuiteSelector])[0m
+[0m[[0minfo[0m] [0m[32mInMemoryAggregateSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- empty grouping aggregate (151 milliseconds)[0m[0m
+[0m[[0minfo[0m] [0m[32m- nonempty grouping aggregate (405 milliseconds)[0m[0m
+[0m[[0mdebug[0m] [0m    Produced 0 nested tasks and 2 events.[0m
+[0m[[0mdebug[0m] [0mRunner for sbt.FrameworkWrapper produced 0 initial tasks for 0 tests.[0m
+[0m[[0mdebug[0m] [0mSummary for ScalaCheck not available.[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 20 seconds, 437 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 9[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[32mAll tests passed.[0m[0m
+[0m[[0mdebug[0m] [0mSummary for JUnit not available.[0m
+[0m[[0minfo[0m] [0mPassed: Total 9, Failed 0, Errors 0, Passed 9[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	org.apache.spark.sql.execution.DiskHashedRelationSuite[0m
+[0m[[0mdebug[0m] [0m	org.apache.spark.sql.execution.CS143UtilsSuite[0m
+[0m[[0mdebug[0m] [0m	org.apache.spark.sql.execution.DiskPartitionSuite[0m
+[0m[[0mdebug[0m] [0m	org.apache.spark.sql.execution.ProjectSuite[0m
+[0m[[0mdebug[0m] [0m	org.apache.spark.sql.execution.InMemoryAggregateSuite[0m

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="old-deps,project2_7753" />
+    <profile name="sbt 10" modules="spark-assembly">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/assembly/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 11" modules="spark-tools">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/tools/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 12" modules="spark-network-common">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/network/common/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 13" modules="spark-mllib">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/mllib/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 14" modules="spark-sql">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/sql/core/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 15" modules="spark-catalyst">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/sql/catalyst/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/paradise_2.10.4-2.0.1.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 2" modules="spark-graphx">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/graphx/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="spark-hive">
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/sql/hive/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 4" modules="spark-streaming">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/streaming/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 5" modules="spark-bagel">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/bagel/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 6" modules="spark-parent">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 7" modules="spark-network-shuffle">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/network/shuffle/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 8" modules="spark-repl">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/repl/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 9" modules="spark-core">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-P:genjavadoc:out=/Users/tianyuzhang/Desktop/CS143/project2/project2/core/target/java" />
+      </parameters>
+      <plugins>
+        <plugin path="$PROJECT_DIR$/lib_managed/jars/genjavadoc-plugin_2.10.4-0.8.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

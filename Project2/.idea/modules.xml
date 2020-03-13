@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/old-deps.iml" filepath="$PROJECT_DIR$/.idea/modules/old-deps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-assembly.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-assembly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-bagel.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-bagel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-catalyst.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-catalyst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-core.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-graphx.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-graphx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-hive.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-hive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-mllib.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-mllib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-network-common.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-network-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-network-shuffle.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-network-shuffle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-parent.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-parent-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-parent-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-repl.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-repl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-sql.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-streaming.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-streaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-tools.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-tools.iml" />
+    </modules>
+  </component>
+</project>

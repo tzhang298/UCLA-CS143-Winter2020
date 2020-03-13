@@ -1,0 +1,7 @@
+#Successful Tests
+#Sun Mar 08 17:23:11 PDT 2020
+org.apache.spark.sql.execution.InMemoryAggregateSuite=1583713391309
+org.apache.spark.sql.execution.CS143UtilsSuite=1583713377006
+org.apache.spark.sql.execution.DiskHashedRelationSuite=1583713375039
+org.apache.spark.sql.execution.DiskPartitionSuite=1583713374867
+org.apache.spark.sql.execution.ProjectSuite=1583713390730
