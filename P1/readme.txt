@@ -1,7 +1,7 @@
 Name Tianyu Zhang
 CS143
 TEAM: alone
-805332081
+Project Description: http://yellowstone.cs.ucla.edu/cs143/
 
 Project 1:
 create.sql —- create tables with specific attributes
